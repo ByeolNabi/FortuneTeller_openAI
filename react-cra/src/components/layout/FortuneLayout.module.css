@@ -1,0 +1,51 @@
+/* src/components/common/Container.module.css */
+.container {
+  display: flex;
+  flex-direction: row;
+  height:100%
+}
+
+.left,
+.right {
+  flex: 1; /* 각 요소가 동일한 비율로 공간을 차지 */
+  display: flex;
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  overflow: hidden;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue; /* 임시 색상 */
+  gap: 10px;
+  width: 100%;
+}
+
+.right {
+  background-color: lightcoral; /* 임시 색상 */
+}
+
+.top,
+.bottom {
+  display: flex;
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  width: 100%;
+}
+
+.top {
+  height: 50px;
+  background-color: lightgreen;
+}
+
+.bottom {
+  flex-grow: 1; /* 1:9 비율 설정 */
+  background-color: lightyellow; /* 임시 색상 */
+}
+
+.sival {
+  width: 100%; /* 이미지가 부모 요소인 right의 너비를 100%로 채움 */
+  height: 100%; /* 이미지의 높이를 100%로 설정하여 1:1 비율을 유지 */
+  object-fit: cover; /* 이미지가 잘리지 않고 부모 요소에 꽉 채워지도록 설정 */
+}
