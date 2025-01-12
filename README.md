@@ -16,6 +16,7 @@
 # Docker
 ![고급웹_울란바토르_20183338김대규_pages-to-jpg-0011](https://github.com/user-attachments/assets/5a8bf658-a55f-442c-bead-d6608710b461)
 # OpenAI API (GPT)
+24년 6월 기준 API입니다. 현재는 사용불가
 ![고급웹_울란바토르_20183338김대규_pages-to-jpg-0012](https://github.com/user-attachments/assets/d3f2e79a-b07e-4a8c-9dd8-f0a9a98280ea)
 # 느낀점
 ![고급웹_울란바토르_20183338김대규_pages-to-jpg-0013](https://github.com/user-attachments/assets/b803ff9e-53f5-4b8f-a485-08557a3dc6c4)
